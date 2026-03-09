@@ -1,0 +1,78 @@
+# ==========================
+# AI Employee Vault .gitignore
+# ==========================
+
+# --- Sensitive Credentials & Auth ---
+credentials.json
+token.json
+*.key
+*.secret
+.env
+.env.local
+
+# --- Browser Sessions ---
+linkedin_session/
+gmail_session/
+*.session
+Default/
+
+# --- Python ---
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- IDE & Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Logs & Temp Files ---
+Logs/
+*.log
+auth_url.txt
+$null
+
+# --- User Data Folders (contain personal emails/posts) ---
+Inbox/
+Approved/
+Pending_Approval/
+Rejected/
+Done/
+Needs_Action/
+Plans/
+
+# --- MCP Config (may contain personal paths) ---
+mcp.config.json
+
+# --- Database Files ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- OS Files ---
+Thumbs.db
+.DS_Store
+desktop.ini
